@@ -3,9 +3,9 @@
   "editor.cursorBlinking": "solid",
   "editor.fontFamily": "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace",
   "editor.fontLigatures": false,
-  "editor.fontSize": 22,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
+  "editor.fontSize": 20,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
   "editor.lineNumbers": "on",
   "editor.matchBrackets": "always",
   "editor.minimap.enabled": false,
@@ -18,7 +18,7 @@
   "screencastMode.onlyKeyboardShortcuts": true,
   "terminal.integrated.fontSize": 18,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "Monokai",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true
 }
