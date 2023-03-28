@@ -16,7 +16,7 @@ class AnimalTerrestre:
         print("Caminando")
 
 
-class Pajaro(AnimalAereo, AnimalTerrestre):
+class Pajaro(AnimalTerrestre, AnimalAereo):
     pass
 
 
@@ -24,3 +24,4 @@ pato = Pajaro()
 pato.volar()
 pato.caminar()
 pato.comer()
+

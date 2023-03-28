@@ -27,5 +27,14 @@ class Deportista(Persona):
 
 class Ciclista(Deportista):
 
+    def __init__(self, nombre, apellido, edad):
+        self.deporte = "Ciclismo"
+        super().__init__(nombre, apellido, edad, self.deporte)
+
     def pedalear(self):
         print("Pedaleando")
+
+
+nairo = Ciclista(nombre="Nairo", apellido="Quintana", edad=33)
+nairo.ejecutar_accion()
+nairo.agregar_documento_identidad(123)
