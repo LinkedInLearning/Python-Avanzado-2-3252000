@@ -24,4 +24,3 @@ pato = Pajaro()
 pato.volar()
 pato.caminar()
 pato.comer()
-
