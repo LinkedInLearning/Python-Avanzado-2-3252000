@@ -5,15 +5,17 @@ from conexion import engine, ModeloBase, session
 def guardar_datos():
     contabilidad = Departamento("Contabilidad")
     session.add(contabilidad)
-    tecnologia = Departamento("Tecnologia")
+    tecnologia = Departamento("Tecnología")
     session.add(tecnologia)
     session.commit()
 
-    emilio = Empleado("Emilio", "Tafur", "1234", contabilidad.id)
+    emilio = Empleado("Emilio", "Tafur", "123", contabilidad.id)
     session.add(emilio)
-    javier = Empleado("Javier", "Quiñonez", "567", tecnologia.id)
+    javier = Empleado("Javier", "Quiñonez", "1234", tecnologia.id)
     session.add(javier)
     session.commit()
+
+    print(contabilidad.id)
 
 
 def hacer_consultas():
@@ -23,14 +25,12 @@ def hacer_consultas():
     cantidad_departamentos = session.query(Departamento).count()
     print(cantidad_departamentos)
 
-    empleados_contabilidad = session.query(Empleado).filter_by(id_departamento=departamento_1.id).all()
+    empleados_contabilidad = session.query(Empleado).filter_by(
+        id_departamento=departamento_1.id
+    ).first()
     print(empleados_contabilidad)
-
     for empleado in empleados_contabilidad:
         print(empleado)
-
-    primer_empleados_contabilidad = session.query(Empleado).filter_by(nombre="Javier").first()
-    print(primer_empleados_contabilidad)
 
 
 if __name__ == "__main__":
