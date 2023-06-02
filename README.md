@@ -6,11 +6,7 @@ Este es el repositorio del curso de LinkedIn Learning `Python avanzado 2`. El cu
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
-DESCRIPCIÓN DEL CURSO
-
 Python es un lenguaje de programación versátil que te permite crear aplicaciones de software, scripts y herramientas útiles para resolver problemas en entornos laborales. Las habilidades avanzadas de este curso te permitirán ahorrar tiempo al automatizar tareas tediosas, crear aplicaciones, crear scripts para el análisis de datos, y mucho más. Explorarás temas como la multiherencia y sobrecarga de operadores, closures y decoradores, funciones, el manejo de bases de datos con un ORM y las pruebas unitarias. No te lo pienses, mejorar tus habilidades en Python te permitirá aprovechar estas oportunidades y ponerte al día con la industria.
-
-Este curso está integrado con GitHub Codespaces, un entorno de desarrollo instantáneo alojado en la nube que ofrece toda la funcionalidad de tu IDE favorito sin tener que configurar una máquina local. Con Codespaces puedes practicar en cualquier lugar y desde cualquier dispositivo, de modo que no necesitas instalar ninguna otra herramienta. Aprende a dar los primeros pasos con el vídeo “Cómo usar GitHub Codespaces con este curso”.
 
 ## Instrucciones
 
@@ -34,6 +30,6 @@ Este curso está integrado con GitHub Codespaces, un entorno de desarrollo insta
 Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ana-maria-pinto).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
+[lil-course-url]: https://www.linkedin.com/learning/python-avanzado-2/mejora-con-python
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
 
