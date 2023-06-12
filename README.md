@@ -2,7 +2,7 @@
 
 Este es el repositorio del curso de LinkedIn Learning `Python avanzado 2`. El curso completo está disponible en [LinkedIn Learning][lil-course-url].
 
-![Nombre completo del curso][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![image](https://github.com/LinkedInLearning/Python-Avanzado-2-3252000/assets/71371373/88fea305-a022-48a7-adb0-18362f04959a)
 
 Consulta el archivo Readme en la rama main para obtener instrucciones e información actualizadas.
 
